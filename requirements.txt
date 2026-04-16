@@ -7,9 +7,10 @@ langchain-community==0.2.6
 langchain-google-genai==1.0.10
 langchain-mongodb==0.1.6
 
-pymongo==4.7.0
+pymongo==4.15.5
 chromadb==0.5.3
 pypdf==4.2.0
 python-dotenv==1.0.1
+
 pydantic==2.7.1
 pydantic-core==2.18.4
