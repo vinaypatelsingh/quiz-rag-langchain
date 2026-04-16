@@ -1,0 +1,481 @@
+Topic: Python
+Difficulty: Medium
+
+Question: What is the difference between a list and a tuple in Python?
+
+Options:
+A. Lists are immutable, tuples are mutable
+B. Lists are mutable, tuples are immutable
+C. Both are immutable
+D. Both are mutable
+
+Answer: B
+Explanation: Lists can be modified after creation, whereas tuples are immutable and cannot be changed.
+
+---
+
+Topic: Python
+Difficulty: Easy
+
+Question: Which keyword is used to define a function in Python?
+
+Options:
+A. function
+B. def
+C. fun
+D. define
+
+Answer: B
+Explanation: The def keyword is used to define a function in Python.
+
+---
+
+Topic: Python
+Difficulty: Medium
+
+Question: What is the output of len("Hello") in Python?
+
+Options:
+A. 4
+B. 5
+C. 6
+D. Error
+
+Answer: B
+Explanation: The len() function returns the number of characters in the string, which is 5.
+
+---
+
+Topic: Python
+Difficulty: Easy
+
+Question: Which data type is used to store True or False values in Python?
+
+Options:
+A. int
+B. str
+C. bool
+D. float
+
+Answer: C
+Explanation: The bool data type is used to represent True or False values.
+
+---
+
+Topic: Python
+Difficulty: Medium
+
+Question: What is a dictionary in Python?
+
+Options:
+A. A collection of ordered elements
+B. A collection of key-value pairs
+C. A list of numbers
+D. A function
+
+Answer: B
+Explanation: A dictionary stores data in key-value pairs and allows fast retrieval using keys.
+
+---
+
+Topic: Python
+Difficulty: Easy
+
+Question: Which symbol is used for comments in Python?
+
+Options:
+A. //
+B. <!-- -->
+C. #
+D. /* */
+
+Answer: C
+Explanation: The # symbol is used to write comments in Python.
+
+---
+
+Topic: Python
+Difficulty: Medium
+
+Question: What is the output of 3 * "ab" in Python?
+
+Options:
+A. ababab
+B. ab3
+C. Error
+D. 6
+
+Answer: A
+Explanation: Python repeats the string "ab" three times, resulting in "ababab".
+
+---
+
+Topic: Python
+Difficulty: Easy
+
+Question: Which method is used to add an element to a list?
+
+Options:
+A. add()
+B. append()
+C. insertLast()
+D. push()
+
+Answer: B
+Explanation: The append() method is used to add an element to the end of a list.
+
+---
+
+Topic: Python
+Difficulty: Medium
+
+Question: What is a lambda function in Python?
+
+Options:
+A. A named function
+B. An anonymous function
+C. A loop
+D. A class
+
+Answer: B
+Explanation: A lambda function is an anonymous function defined using the lambda keyword.
+
+---
+
+Topic: Python
+Difficulty: Easy
+
+Question: Which function is used to get user input in Python?
+
+Options:
+A. scanf()
+B. input()
+C. read()
+D. get()
+
+Answer: B
+Explanation: The input() function is used to take input from the user in Python.
+
+---
+ 
+
+Topic: RAG System
+Difficulty: Medium
+
+Question: What does RAG stand for in AI systems?
+
+Options:
+A. Retrieval and Generation
+B. Retrieval-Augmented Generation
+C. Random Access Generation
+D. Response Analysis Generator
+
+Answer: B
+Explanation: RAG stands for Retrieval-Augmented Generation, combining retrieval of information with text generation.
+
+---
+
+Topic: RAG System
+Difficulty: Easy
+
+Question: What is the main purpose of a RAG system?
+
+Options:
+A. To store data only
+B. To generate responses using retrieved knowledge
+C. To compile code
+D. To design UI
+
+Answer: B
+Explanation: A RAG system retrieves relevant documents and uses them to generate accurate responses.
+
+---
+
+Topic: RAG System
+Difficulty: Medium
+
+Question: Which component retrieves relevant documents in a RAG system?
+
+Options:
+A. Generator
+B. Retriever
+C. Tokenizer
+D. Compiler
+
+Answer: B
+Explanation: The retriever fetches relevant documents from a knowledge base before generation.
+
+---
+
+Topic: RAG System
+Difficulty: Easy
+
+Question: Which component generates the final response in a RAG system?
+
+Options:
+A. Retriever
+B. Generator
+C. Indexer
+D. Parser
+
+Answer: B
+Explanation: The generator (LLM) creates the final answer using retrieved context.
+
+---
+
+Topic: RAG System
+Difficulty: Medium
+
+Question: What type of database is commonly used in RAG systems for similarity search?
+
+Options:
+A. Relational database
+B. Vector database
+C. Graph database
+D. File system
+
+Answer: B
+Explanation: Vector databases store embeddings and allow similarity-based retrieval.
+
+---
+
+Topic: RAG System
+Difficulty: Easy
+
+Question: What is an embedding in a RAG system?
+
+Options:
+A. A UI component
+B. A numerical representation of text
+C. A database query
+D. A server
+
+Answer: B
+Explanation: Embeddings convert text into numerical vectors for similarity comparison.
+
+---
+
+Topic: RAG System
+Difficulty: Medium
+
+Question: What is chunking in RAG systems?
+
+Options:
+A. Combining data
+B. Splitting documents into smaller parts
+C. Deleting data
+D. Encrypting files
+
+Answer: B
+Explanation: Chunking divides large documents into smaller pieces for better retrieval accuracy.
+
+---
+
+Topic: RAG System
+Difficulty: Easy
+
+Question: Which model is typically used in the generation phase of RAG?
+
+Options:
+A. CNN
+B. LLM
+C. SVM
+D. KNN
+
+Answer: B
+Explanation: Large Language Models (LLMs) are used to generate responses based on retrieved data.
+
+---
+
+Topic: RAG System
+Difficulty: Medium
+
+Question: What is similarity search in RAG systems?
+
+Options:
+A. Searching exact keywords
+B. Finding closest matching vectors
+C. Sorting data
+D. Deleting duplicates
+
+Answer: B
+Explanation: Similarity search finds vectors that are closest in meaning using distance metrics like cosine similarity.
+
+---
+
+Topic: RAG System
+Difficulty: Easy
+
+Question: What is the role of indexing in a RAG system?
+
+Options:
+A. Generating answers
+B. Organizing data for fast retrieval
+C. Training models
+D. Writing code
+
+Answer: B
+Explanation: Indexing organizes embeddings so that relevant information can be retrieved efficiently.
+
+---
+
+
+Topic: AI-ML
+Difficulty: Medium
+
+Question: What is the difference between Artificial Intelligence and Machine Learning?
+
+Options:
+A. Both are the same
+B. AI is a subset of ML
+C. ML is a subset of AI
+D. They are unrelated
+
+Answer: C
+Explanation: Machine Learning is a subset of AI that focuses on learning patterns from data, while AI is the broader concept of intelligent systems.
+
+---
+
+Topic: AI-ML
+Difficulty: Easy
+
+Question: Which type of learning uses labeled data?
+
+Options:
+A. Unsupervised Learning
+B. Reinforcement Learning
+C. Supervised Learning
+D. Semi-Supervised Learning
+
+Answer: C
+Explanation: Supervised learning uses labeled datasets where input-output pairs are known.
+
+---
+
+Topic: AI-ML
+Difficulty: Medium
+
+Question: What is overfitting in machine learning?
+
+Options:
+A. Model performs well on unseen data
+B. Model performs poorly on training data
+C. Model memorizes training data and fails on new data
+D. Model ignores data
+
+Answer: C
+Explanation: Overfitting occurs when a model learns noise and details from training data, reducing its generalization ability.
+
+---
+
+Topic: AI-ML
+Difficulty: Easy
+
+Question: Which algorithm is used for classification problems?
+
+Options:
+A. Linear Regression
+B. Logistic Regression
+C. PCA
+D. K-Means
+
+Answer: B
+Explanation: Logistic Regression is commonly used for classification tasks.
+
+---
+
+Topic: AI-ML
+Difficulty: Medium
+
+Question: What is a feature in machine learning?
+
+Options:
+A. Output variable
+B. Input variable used for prediction
+C. Algorithm
+D. Model evaluation
+
+Answer: B
+Explanation: Features are input variables used by models to make predictions.
+
+---
+
+Topic: AI-ML
+Difficulty: Easy
+
+Question: Which library is commonly used for machine learning in Python?
+
+Options:
+A. NumPy
+B. Pandas
+C. Scikit-learn
+D. Matplotlib
+
+Answer: C
+Explanation: Scikit-learn provides tools for machine learning tasks like classification, regression, and clustering.
+
+---
+
+Topic: AI-ML
+Difficulty: Medium
+
+Question: What is a confusion matrix?
+
+Options:
+A. A training dataset
+B. A performance evaluation table
+C. A neural network
+D. A clustering method
+
+Answer: B
+Explanation: A confusion matrix is used to evaluate classification models by comparing predicted and actual values.
+
+---
+
+Topic: AI-ML
+Difficulty: Easy
+
+Question: Which learning type does not require labeled data?
+
+Options:
+A. Supervised Learning
+B. Unsupervised Learning
+C. Reinforcement Learning
+D. Deep Learning
+
+Answer: B
+Explanation: Unsupervised learning works with unlabeled data to find patterns or groupings.
+
+---
+
+Topic: AI-ML
+Difficulty: Medium
+
+Question: What is gradient descent?
+
+Options:
+A. A data preprocessing method
+B. An optimization algorithm
+C. A clustering technique
+D. A visualization tool
+
+Answer: B
+Explanation: Gradient descent is used to minimize loss functions by updating model parameters iteratively.
+
+---
+
+Topic: AI-ML
+Difficulty: Easy
+
+Question: Which technique is used to reduce the number of features?
+
+Options:
+A. Classification
+B. Regression
+C. Dimensionality Reduction
+D. Clustering
+
+Answer: C
+Explanation: Dimensionality reduction techniques like PCA reduce the number of features while retaining important information.
+
+---

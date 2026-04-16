@@ -1,0 +1,164 @@
+TITLE: IT Language Assessment Test
+DESCRIPTION: This dataset contains structured questions and answers for self-assessment in programming and IT fundamentals. It is designed for RAG-based learning systems.
+
+--------------------------------------------------
+SECTION: JavaScript Basics
+--------------------------------------------------
+
+Q1: What is JavaScript?
+A: JavaScript is a high-level, interpreted programming language used to create interactive web applications.
+
+Q2: Difference between let, const, and var?
+A:
+- var: function scoped, can be redeclared
+- let: block scoped, cannot be redeclared
+- const: block scoped, cannot be reassigned
+
+Q3: What is a closure?
+A: A closure is a function that remembers variables from its lexical scope even when executed outside that scope.
+
+Q4: What is the event loop?
+A: The event loop handles asynchronous operations in JavaScript by managing the call stack and callback queue.
+
+--------------------------------------------------
+SECTION: React.js
+--------------------------------------------------
+
+Q5: What is React?
+A: React is a JavaScript library for building user interfaces using components.
+
+Q6: What is a component?
+A: A component is a reusable piece of UI in React.
+
+Q7: What is useState?
+A: useState is a React Hook used to manage state in functional components.
+
+Q8: Difference between props and state?
+A:
+- Props: passed from parent, read-only
+- State: managed inside component, mutable
+
+--------------------------------------------------
+SECTION: Node.js & Backend
+--------------------------------------------------
+
+Q9: What is Node.js?
+A: Node.js is a runtime environment that allows JavaScript to run on the server.
+
+Q10: What is Express.js?
+A: Express is a minimal Node.js framework used to build APIs and web applications.
+
+Q11: What is middleware?
+A: Middleware functions process requests before sending a response.
+
+Q12: What is REST API?
+A: REST API is an architectural style for designing networked applications using HTTP methods.
+
+--------------------------------------------------
+SECTION: Database (MongoDB)
+--------------------------------------------------
+
+Q13: What is MongoDB?
+A: MongoDB is a NoSQL database that stores data in JSON-like documents.
+
+Q14: What is a collection?
+A: A collection is a group of documents in MongoDB.
+
+Q15: What is indexing?
+A: Indexing improves query performance by organizing data.
+
+--------------------------------------------------
+SECTION: Data Structures & Algorithms
+--------------------------------------------------
+
+Q16: What is an array?
+A: An array is a collection of elements stored in contiguous memory.
+
+Q17: What is a linked list?
+A: A linked list is a data structure where elements are connected using pointers.
+
+Q18: What is time complexity?
+A: Time complexity measures the performance of an algorithm based on input size.
+
+Q19: What is Big-O notation?
+A: Big-O describes the worst-case time complexity of an algorithm.
+
+--------------------------------------------------
+SECTION: Python Basics
+--------------------------------------------------
+
+Q20: What is Python?
+A: Python is a high-level, interpreted programming language known for simplicity.
+
+Q21: What is a list in Python?
+A: A list is a mutable collection of items.
+
+Q22: Difference between list and tuple?
+A:
+- List: mutable
+- Tuple: immutable
+
+Q23: What is a dictionary?
+A: A dictionary stores key-value pairs.
+
+--------------------------------------------------
+SECTION: AI / ML Basics
+--------------------------------------------------
+
+Q24: What is Machine Learning?
+A: Machine Learning is a field of AI that enables systems to learn from data.
+
+Q25: What is supervised learning?
+A: Learning using labeled data.
+
+Q26: What is unsupervised learning?
+A: Learning using unlabeled data.
+
+Q27: What is RAG (Retrieval-Augmented Generation)?
+A: RAG combines retrieval of relevant documents with language model generation.
+
+--------------------------------------------------
+SECTION: Practical Coding Questions
+--------------------------------------------------
+
+Q28: Reverse a string in JavaScript.
+A:
+function reverseString(str) {
+  return str.split('').reverse().join('');
+}
+
+Q29: Check if a number is prime.
+A:
+function isPrime(num) {
+  if (num <= 1) return false;
+  for (let i = 2; i < num; i++) {
+    if (num % i === 0) return false;
+  }
+  return true;
+}
+
+Q30: Find the largest number in an array.
+A:
+function max(arr) {
+  return Math.max(...arr);
+}
+
+--------------------------------------------------
+SECTION: Self Assessment (MCQ)
+--------------------------------------------------
+
+Q31: Which keyword is used to declare a constant in JavaScript?
+Options: var, let, const, static
+Answer: const
+
+Q32: Which data structure uses FIFO?
+Options: Stack, Queue, Tree, Graph
+Answer: Queue
+
+Q33: Which HTTP method is used to update data?
+Options: GET, POST, PUT, DELETE
+Answer: PUT
+
+--------------------------------------------------
+END OF FILE
+--------------------------------------------------

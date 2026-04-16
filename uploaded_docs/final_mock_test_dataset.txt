@@ -1,0 +1,3162 @@
+Topic: JavaScript
+Difficulty: Easy
+
+Question: What is the output of typeof null?
+
+Options:
+A
+.
+ 
+n
+u
+l
+l
+
+
+B
+.
+ 
+o
+b
+j
+e
+c
+t
+
+
+C
+.
+ 
+u
+n
+d
+e
+f
+i
+n
+e
+d
+
+
+D
+.
+ 
+n
+u
+m
+b
+e
+r
+
+Answer: B
+
+Explanation: Due to a historical bug, typeof null returns 'object'.
+
+------------------------------------------------------------
+
+Topic: JavaScript
+Difficulty: Easy
+
+Question: Which keyword creates a block-scoped variable?
+
+Options:
+A
+.
+ 
+v
+a
+r
+
+
+B
+.
+ 
+l
+e
+t
+
+
+C
+.
+ 
+d
+e
+f
+i
+n
+e
+
+
+D
+.
+ 
+s
+t
+a
+t
+i
+c
+
+Answer: B
+
+Explanation: let creates block-scoped variables.
+
+------------------------------------------------------------
+
+Topic: JavaScript
+Difficulty: Easy
+
+Question: Which method converts JSON string to object?
+
+Options:
+A
+.
+ 
+J
+S
+O
+N
+.
+p
+a
+r
+s
+e
+(
+)
+
+
+B
+.
+ 
+J
+S
+O
+N
+.
+s
+t
+r
+i
+n
+g
+i
+f
+y
+(
+)
+
+
+C
+.
+ 
+p
+a
+r
+s
+e
+J
+S
+O
+N
+(
+)
+
+
+D
+.
+ 
+t
+o
+O
+b
+j
+e
+c
+t
+(
+)
+
+Answer: A
+
+Explanation: JSON.parse() converts JSON string to object.
+
+------------------------------------------------------------
+
+Topic: JavaScript
+Difficulty: Easy
+
+Question: What is NaN?
+
+Options:
+A
+.
+ 
+N
+o
+t
+ 
+a
+ 
+n
+u
+m
+b
+e
+r
+
+
+B
+.
+ 
+N
+u
+l
+l
+ 
+v
+a
+l
+u
+e
+
+
+C
+.
+ 
+U
+n
+d
+e
+f
+i
+n
+e
+d
+
+
+D
+.
+ 
+B
+o
+o
+l
+e
+a
+n
+
+Answer: A
+
+Explanation: NaN stands for Not-a-Number.
+
+------------------------------------------------------------
+
+Topic: JavaScript
+Difficulty: Easy
+
+Question: Which symbol is used for comments?
+
+Options:
+A
+.
+ 
+/
+/
+
+
+B
+.
+ 
+#
+
+
+C
+.
+ 
+<
+!
+-
+-
+ 
+-
+-
+>
+
+
+D
+.
+ 
+*
+*
+
+Answer: A
+
+Explanation: // is used for single-line comments.
+
+------------------------------------------------------------
+
+Topic: JavaScript
+Difficulty: Easy
+
+Question: Which method adds element to array end?
+
+Options:
+A
+.
+ 
+p
+u
+s
+h
+(
+)
+
+
+B
+.
+ 
+p
+o
+p
+(
+)
+
+
+C
+.
+ 
+s
+h
+i
+f
+t
+(
+)
+
+
+D
+.
+ 
+u
+n
+s
+h
+i
+f
+t
+(
+)
+
+Answer: A
+
+Explanation: push() adds element at end.
+
+------------------------------------------------------------
+
+Topic: JavaScript
+Difficulty: Easy
+
+Question: Which operator checks value and type?
+
+Options:
+A
+.
+ 
+=
+=
+
+
+B
+.
+ 
+=
+=
+=
+
+
+C
+.
+ 
+=
+
+
+D
+.
+ 
+!
+=
+ 
+
+Answer: B
+
+Explanation: === checks both value and type.
+
+------------------------------------------------------------
+
+Topic: JavaScript
+Difficulty: Medium
+
+Question: What is closure?
+
+Options:
+A
+.
+ 
+L
+o
+o
+p
+
+
+B
+.
+ 
+F
+u
+n
+c
+t
+i
+o
+n
+ 
+w
+i
+t
+h
+ 
+p
+r
+e
+s
+e
+r
+v
+e
+d
+ 
+s
+c
+o
+p
+e
+
+
+C
+.
+ 
+O
+b
+j
+e
+c
+t
+
+
+D
+.
+ 
+E
+v
+e
+n
+t
+
+Answer: B
+
+Explanation: Closure retains access to outer scope.
+
+------------------------------------------------------------
+
+Topic: JavaScript
+Difficulty: Medium
+
+Question: What is event bubbling?
+
+Options:
+A
+.
+ 
+D
+o
+w
+n
+w
+a
+r
+d
+ 
+p
+r
+o
+p
+a
+g
+a
+t
+i
+o
+n
+
+
+B
+.
+ 
+U
+p
+w
+a
+r
+d
+ 
+p
+r
+o
+p
+a
+g
+a
+t
+i
+o
+n
+
+
+C
+.
+ 
+E
+v
+e
+n
+t
+ 
+r
+e
+m
+o
+v
+a
+l
+
+
+D
+.
+ 
+E
+v
+e
+n
+t
+ 
+c
+r
+e
+a
+t
+i
+o
+n
+
+Answer: B
+
+Explanation: Event bubbles up the DOM.
+
+------------------------------------------------------------
+
+Topic: JavaScript
+Difficulty: Medium
+
+Question: What does async keyword do?
+
+Options:
+A
+.
+ 
+M
+a
+k
+e
+s
+ 
+s
+y
+n
+c
+
+
+B
+.
+ 
+R
+e
+t
+u
+r
+n
+s
+ 
+p
+r
+o
+m
+i
+s
+e
+
+
+C
+.
+ 
+B
+l
+o
+c
+k
+s
+ 
+t
+h
+r
+e
+a
+d
+
+
+D
+.
+ 
+S
+t
+o
+p
+s
+ 
+e
+x
+e
+c
+u
+t
+i
+o
+n
+
+Answer: B
+
+Explanation: Async functions return promises.
+
+------------------------------------------------------------
+
+Topic: JavaScript
+Difficulty: Medium
+
+Question: What is hoisting?
+
+Options:
+A
+.
+ 
+M
+o
+v
+i
+n
+g
+ 
+v
+a
+r
+i
+a
+b
+l
+e
+s
+ 
+t
+o
+ 
+t
+o
+p
+
+
+B
+.
+ 
+L
+o
+o
+p
+i
+n
+g
+
+
+C
+.
+ 
+M
+e
+m
+o
+r
+y
+ 
+a
+l
+l
+o
+c
+a
+t
+i
+o
+n
+
+
+D
+.
+ 
+E
+v
+e
+n
+t
+ 
+h
+a
+n
+d
+l
+i
+n
+g
+
+Answer: A
+
+Explanation: JS moves declarations to top.
+
+------------------------------------------------------------
+
+Topic: JavaScript
+Difficulty: Medium
+
+Question: Which method removes last element?
+
+Options:
+A
+.
+ 
+p
+u
+s
+h
+
+
+B
+.
+ 
+p
+o
+p
+
+
+C
+.
+ 
+s
+h
+i
+f
+t
+
+
+D
+.
+ 
+s
+l
+i
+c
+e
+
+Answer: B
+
+Explanation: pop removes last element.
+
+------------------------------------------------------------
+
+Topic: JavaScript
+Difficulty: Medium
+
+Question: What is DOM?
+
+Options:
+A
+.
+ 
+D
+a
+t
+a
+ 
+O
+b
+j
+e
+c
+t
+ 
+M
+o
+d
+e
+l
+
+
+B
+.
+ 
+D
+o
+c
+u
+m
+e
+n
+t
+ 
+O
+b
+j
+e
+c
+t
+ 
+M
+o
+d
+e
+l
+
+
+C
+.
+ 
+D
+y
+n
+a
+m
+i
+c
+ 
+O
+b
+j
+e
+c
+t
+ 
+M
+o
+d
+e
+l
+
+
+D
+.
+ 
+N
+o
+n
+e
+
+Answer: B
+
+Explanation: DOM represents HTML structure.
+
+------------------------------------------------------------
+
+Topic: JavaScript
+Difficulty: Medium
+
+Question: What is promise?
+
+Options:
+A
+.
+ 
+L
+o
+o
+p
+
+
+B
+.
+ 
+A
+s
+y
+n
+c
+ 
+r
+e
+s
+u
+l
+t
+ 
+h
+o
+l
+d
+e
+r
+
+
+C
+.
+ 
+O
+b
+j
+e
+c
+t
+
+
+D
+.
+ 
+F
+u
+n
+c
+t
+i
+o
+n
+
+Answer: B
+
+Explanation: Promise handles async operations.
+
+------------------------------------------------------------
+
+Topic: JavaScript
+Difficulty: Hard
+
+Question: What is currying?
+
+Options:
+A
+.
+ 
+S
+p
+l
+i
+t
+t
+i
+n
+g
+ 
+f
+u
+n
+c
+t
+i
+o
+n
+ 
+a
+r
+g
+s
+
+
+B
+.
+ 
+L
+o
+o
+p
+i
+n
+g
+
+
+C
+.
+ 
+O
+b
+j
+e
+c
+t
+ 
+c
+r
+e
+a
+t
+i
+o
+n
+
+
+D
+.
+ 
+E
+v
+e
+n
+t
+ 
+h
+a
+n
+d
+l
+i
+n
+g
+
+Answer: A
+
+Explanation: Currying transforms function with multiple args into sequence.
+
+------------------------------------------------------------
+
+Topic: JavaScript
+Difficulty: Hard
+
+Question: What is debounce?
+
+Options:
+A
+.
+ 
+D
+e
+l
+a
+y
+ 
+f
+u
+n
+c
+t
+i
+o
+n
+ 
+c
+a
+l
+l
+
+
+B
+.
+ 
+L
+o
+o
+p
+
+
+C
+.
+ 
+O
+b
+j
+e
+c
+t
+
+
+D
+.
+ 
+A
+P
+I
+
+Answer: A
+
+Explanation: Debounce limits function execution.
+
+------------------------------------------------------------
+
+Topic: JavaScript
+Difficulty: Hard
+
+Question: What is throttle?
+
+Options:
+A
+.
+ 
+L
+i
+m
+i
+t
+ 
+r
+a
+t
+e
+
+
+B
+.
+ 
+L
+o
+o
+p
+
+
+C
+.
+ 
+E
+v
+e
+n
+t
+
+
+D
+.
+ 
+V
+a
+r
+i
+a
+b
+l
+e
+
+Answer: A
+
+Explanation: Throttle limits execution rate.
+
+------------------------------------------------------------
+
+Topic: JavaScript
+Difficulty: Hard
+
+Question: What is prototype chain?
+
+Options:
+A
+.
+ 
+I
+n
+h
+e
+r
+i
+t
+a
+n
+c
+e
+ 
+m
+e
+c
+h
+a
+n
+i
+s
+m
+
+
+B
+.
+ 
+L
+o
+o
+p
+
+
+C
+.
+ 
+O
+b
+j
+e
+c
+t
+
+
+D
+.
+ 
+A
+P
+I
+
+Answer: A
+
+Explanation: JS uses prototype-based inheritance.
+
+------------------------------------------------------------
+
+Topic: JavaScript
+Difficulty: Hard
+
+Question: What is shadow DOM?
+
+Options:
+A
+.
+ 
+H
+i
+d
+d
+e
+n
+ 
+D
+O
+M
+
+
+B
+.
+ 
+L
+i
+g
+h
+t
+ 
+D
+O
+M
+
+
+C
+.
+ 
+V
+i
+r
+t
+u
+a
+l
+ 
+D
+O
+M
+
+
+D
+.
+ 
+N
+o
+n
+e
+
+Answer: A
+
+Explanation: Shadow DOM encapsulates elements.
+
+------------------------------------------------------------
+
+Topic: JavaScript
+Difficulty: Hard
+
+Question: What is call() method?
+
+Options:
+A
+.
+ 
+C
+a
+l
+l
+s
+ 
+f
+u
+n
+c
+t
+i
+o
+n
+ 
+w
+i
+t
+h
+ 
+c
+o
+n
+t
+e
+x
+t
+
+
+B
+.
+ 
+L
+o
+o
+p
+
+
+C
+.
+ 
+O
+b
+j
+e
+c
+t
+
+
+D
+.
+ 
+A
+P
+I
+
+Answer: A
+
+Explanation: call() sets 'this' explicitly.
+
+------------------------------------------------------------
+
+Topic: Python
+Difficulty: Easy
+
+Question: What is Python?
+
+Options:
+A
+.
+ 
+L
+o
+w
+-
+l
+e
+v
+e
+l
+
+
+B
+.
+ 
+H
+i
+g
+h
+-
+l
+e
+v
+e
+l
+
+
+C
+.
+ 
+A
+s
+s
+e
+m
+b
+l
+y
+
+
+D
+.
+ 
+M
+a
+c
+h
+i
+n
+e
+
+Answer: B
+
+Explanation: Python is high-level language.
+
+------------------------------------------------------------
+
+Topic: Python
+Difficulty: Easy
+
+Question: Which symbol is comment?
+
+Options:
+A
+.
+ 
+/
+/
+
+
+B
+.
+ 
+#
+
+
+C
+.
+ 
+<
+!
+-
+-
+
+
+D
+.
+ 
+*
+*
+
+Answer: B
+
+Explanation: '#' is comment.
+
+------------------------------------------------------------
+
+Topic: Python
+Difficulty: Easy
+
+Question: What is list?
+
+Options:
+A
+.
+ 
+O
+r
+d
+e
+r
+e
+d
+ 
+c
+o
+l
+l
+e
+c
+t
+i
+o
+n
+
+
+B
+.
+ 
+F
+u
+n
+c
+t
+i
+o
+n
+
+
+C
+.
+ 
+C
+l
+a
+s
+s
+
+
+D
+.
+ 
+L
+o
+o
+p
+
+Answer: A
+
+Explanation: List stores ordered items.
+
+------------------------------------------------------------
+
+Topic: Python
+Difficulty: Easy
+
+Question: What is tuple?
+
+Options:
+A
+.
+ 
+M
+u
+t
+a
+b
+l
+e
+
+
+B
+.
+ 
+I
+m
+m
+u
+t
+a
+b
+l
+e
+
+
+C
+.
+ 
+L
+o
+o
+p
+
+
+D
+.
+ 
+F
+u
+n
+c
+t
+i
+o
+n
+
+Answer: B
+
+Explanation: Tuple is immutable.
+
+------------------------------------------------------------
+
+Topic: Python
+Difficulty: Easy
+
+Question: Which keyword defines function?
+
+Options:
+A
+.
+ 
+f
+u
+n
+c
+
+
+B
+.
+ 
+d
+e
+f
+
+
+C
+.
+ 
+f
+u
+n
+c
+t
+i
+o
+n
+
+
+D
+.
+ 
+l
+a
+m
+b
+d
+a
+
+Answer: B
+
+Explanation: def defines function.
+
+------------------------------------------------------------
+
+Topic: Python
+Difficulty: Easy
+
+Question: Which type is mutable?
+
+Options:
+A
+.
+ 
+t
+u
+p
+l
+e
+
+
+B
+.
+ 
+l
+i
+s
+t
+
+
+C
+.
+ 
+s
+t
+r
+i
+n
+g
+
+
+D
+.
+ 
+i
+n
+t
+
+Answer: B
+
+Explanation: List is mutable.
+
+------------------------------------------------------------
+
+Topic: Python
+Difficulty: Easy
+
+Question: What is len()?
+
+Options:
+A
+.
+ 
+L
+o
+o
+p
+
+
+B
+.
+ 
+L
+e
+n
+g
+t
+h
+
+
+C
+.
+ 
+V
+a
+r
+i
+a
+b
+l
+e
+
+
+D
+.
+ 
+C
+l
+a
+s
+s
+
+Answer: B
+
+Explanation: len returns length.
+
+------------------------------------------------------------
+
+Topic: Python
+Difficulty: Medium
+
+Question: What is lambda?
+
+Options:
+A
+.
+ 
+N
+a
+m
+e
+d
+
+
+B
+.
+ 
+A
+n
+o
+n
+y
+m
+o
+u
+s
+
+
+C
+.
+ 
+L
+o
+o
+p
+
+
+D
+.
+ 
+C
+l
+a
+s
+s
+
+Answer: B
+
+Explanation: Lambda is anonymous function.
+
+------------------------------------------------------------
+
+Topic: Python
+Difficulty: Medium
+
+Question: What is list comprehension?
+
+Options:
+A
+.
+ 
+L
+o
+o
+p
+ 
+s
+h
+o
+r
+t
+h
+a
+n
+d
+
+
+B
+.
+ 
+C
+l
+a
+s
+s
+
+
+C
+.
+ 
+O
+b
+j
+e
+c
+t
+
+
+D
+.
+ 
+A
+P
+I
+
+Answer: A
+
+Explanation: Compact loop syntax.
+
+------------------------------------------------------------
+
+Topic: Python
+Difficulty: Medium
+
+Question: What is generator?
+
+Options:
+A
+.
+ 
+R
+e
+t
+u
+r
+n
+s
+ 
+i
+t
+e
+r
+a
+t
+o
+r
+
+
+B
+.
+ 
+L
+o
+o
+p
+
+
+C
+.
+ 
+C
+l
+a
+s
+s
+
+
+D
+.
+ 
+A
+P
+I
+
+Answer: A
+
+Explanation: Generators yield values.
+
+------------------------------------------------------------
+
+Topic: Python
+Difficulty: Medium
+
+Question: What is GIL?
+
+Options:
+A
+.
+ 
+L
+o
+c
+k
+
+
+B
+.
+ 
+T
+h
+r
+e
+a
+d
+
+
+C
+.
+ 
+A
+P
+I
+
+
+D
+.
+ 
+L
+o
+o
+p
+
+Answer: A
+
+Explanation: GIL allows one thread.
+
+------------------------------------------------------------
+
+Topic: Python
+Difficulty: Medium
+
+Question: What is decorator?
+
+Options:
+A
+.
+ 
+F
+u
+n
+c
+t
+i
+o
+n
+ 
+m
+o
+d
+i
+f
+i
+e
+r
+
+
+B
+.
+ 
+L
+o
+o
+p
+
+
+C
+.
+ 
+C
+l
+a
+s
+s
+
+
+D
+.
+ 
+O
+b
+j
+e
+c
+t
+
+Answer: A
+
+Explanation: Decorators modify functions.
+
+------------------------------------------------------------
+
+Topic: Python
+Difficulty: Medium
+
+Question: What is dict?
+
+Options:
+A
+.
+ 
+K
+e
+y
+-
+v
+a
+l
+u
+e
+
+
+B
+.
+ 
+L
+i
+s
+t
+
+
+C
+.
+ 
+L
+o
+o
+p
+
+
+D
+.
+ 
+C
+l
+a
+s
+s
+
+Answer: A
+
+Explanation: Dictionary stores key-value.
+
+------------------------------------------------------------
+
+Topic: Python
+Difficulty: Medium
+
+Question: What is exception?
+
+Options:
+A
+.
+ 
+E
+r
+r
+o
+r
+
+
+B
+.
+ 
+L
+o
+o
+p
+
+
+C
+.
+ 
+C
+l
+a
+s
+s
+
+
+D
+.
+ 
+O
+b
+j
+e
+c
+t
+
+Answer: A
+
+Explanation: Exception handles errors.
+
+------------------------------------------------------------
+
+Topic: Python
+Difficulty: Hard
+
+Question: What is metaclass?
+
+Options:
+A
+.
+ 
+C
+l
+a
+s
+s
+ 
+o
+f
+ 
+c
+l
+a
+s
+s
+
+
+B
+.
+ 
+L
+o
+o
+p
+
+
+C
+.
+ 
+A
+P
+I
+
+
+D
+.
+ 
+O
+b
+j
+e
+c
+t
+
+Answer: A
+
+Explanation: Metaclass defines class behavior.
+
+------------------------------------------------------------
+
+Topic: Python
+Difficulty: Hard
+
+Question: What is asyncio?
+
+Options:
+A
+.
+ 
+A
+s
+y
+n
+c
+ 
+f
+r
+a
+m
+e
+w
+o
+r
+k
+
+
+B
+.
+ 
+L
+o
+o
+p
+
+
+C
+.
+ 
+C
+l
+a
+s
+s
+
+
+D
+.
+ 
+O
+b
+j
+e
+c
+t
+
+Answer: A
+
+Explanation: asyncio supports async.
+
+------------------------------------------------------------
+
+Topic: Python
+Difficulty: Hard
+
+Question: What is context manager?
+
+Options:
+A
+.
+ 
+R
+e
+s
+o
+u
+r
+c
+e
+ 
+h
+a
+n
+d
+l
+e
+r
+
+
+B
+.
+ 
+L
+o
+o
+p
+
+
+C
+.
+ 
+C
+l
+a
+s
+s
+
+
+D
+.
+ 
+O
+b
+j
+e
+c
+t
+
+Answer: A
+
+Explanation: Handles setup/cleanup.
+
+------------------------------------------------------------
+
+Topic: Python
+Difficulty: Hard
+
+Question: What is deep copy?
+
+Options:
+A
+.
+ 
+F
+u
+l
+l
+ 
+c
+o
+p
+y
+
+
+B
+.
+ 
+L
+o
+o
+p
+
+
+C
+.
+ 
+O
+b
+j
+e
+c
+t
+
+
+D
+.
+ 
+A
+P
+I
+
+Answer: A
+
+Explanation: Copies nested objects.
+
+------------------------------------------------------------
+
+Topic: Python
+Difficulty: Hard
+
+Question: What is shallow copy?
+
+Options:
+A
+.
+ 
+R
+e
+f
+e
+r
+e
+n
+c
+e
+ 
+c
+o
+p
+y
+
+
+B
+.
+ 
+L
+o
+o
+p
+
+
+C
+.
+ 
+O
+b
+j
+e
+c
+t
+
+
+D
+.
+ 
+A
+P
+I
+
+Answer: A
+
+Explanation: Copies references.
+
+------------------------------------------------------------
+
+Topic: Python
+Difficulty: Hard
+
+Question: What is __init__?
+
+Options:
+A
+.
+ 
+C
+o
+n
+s
+t
+r
+u
+c
+t
+o
+r
+
+
+B
+.
+ 
+L
+o
+o
+p
+
+
+C
+.
+ 
+O
+b
+j
+e
+c
+t
+
+
+D
+.
+ 
+A
+P
+I
+
+Answer: A
+
+Explanation: Initializer method.
+
+------------------------------------------------------------
+
+Topic: Java
+Difficulty: Easy
+
+Question: What is Java concept 1?
+
+Options:
+A. Option1
+B. Option2
+C. Option3
+D. Option4
+
+Answer: A
+
+Explanation: Explanation of Java concept.
+
+------------------------------------------------------------
+
+Topic: TypeScript
+Difficulty: Easy
+
+Question: What is TypeScript concept 1?
+
+Options:
+A. Option1
+B. Option2
+C. Option3
+D. Option4
+
+Answer: A
+
+Explanation: Explanation of TypeScript concept.
+
+------------------------------------------------------------
+
+Topic: Java
+Difficulty: Easy
+
+Question: What is Java concept 2?
+
+Options:
+A. Option1
+B. Option2
+C. Option3
+D. Option4
+
+Answer: A
+
+Explanation: Explanation of Java concept.
+
+------------------------------------------------------------
+
+Topic: TypeScript
+Difficulty: Easy
+
+Question: What is TypeScript concept 2?
+
+Options:
+A. Option1
+B. Option2
+C. Option3
+D. Option4
+
+Answer: A
+
+Explanation: Explanation of TypeScript concept.
+
+------------------------------------------------------------
+
+Topic: Java
+Difficulty: Easy
+
+Question: What is Java concept 3?
+
+Options:
+A. Option1
+B. Option2
+C. Option3
+D. Option4
+
+Answer: A
+
+Explanation: Explanation of Java concept.
+
+------------------------------------------------------------
+
+Topic: TypeScript
+Difficulty: Easy
+
+Question: What is TypeScript concept 3?
+
+Options:
+A. Option1
+B. Option2
+C. Option3
+D. Option4
+
+Answer: A
+
+Explanation: Explanation of TypeScript concept.
+
+------------------------------------------------------------
+
+Topic: Java
+Difficulty: Easy
+
+Question: What is Java concept 4?
+
+Options:
+A. Option1
+B. Option2
+C. Option3
+D. Option4
+
+Answer: A
+
+Explanation: Explanation of Java concept.
+
+------------------------------------------------------------
+
+Topic: TypeScript
+Difficulty: Easy
+
+Question: What is TypeScript concept 4?
+
+Options:
+A. Option1
+B. Option2
+C. Option3
+D. Option4
+
+Answer: A
+
+Explanation: Explanation of TypeScript concept.
+
+------------------------------------------------------------
+
+Topic: Java
+Difficulty: Easy
+
+Question: What is Java concept 5?
+
+Options:
+A. Option1
+B. Option2
+C. Option3
+D. Option4
+
+Answer: A
+
+Explanation: Explanation of Java concept.
+
+------------------------------------------------------------
+
+Topic: TypeScript
+Difficulty: Easy
+
+Question: What is TypeScript concept 5?
+
+Options:
+A. Option1
+B. Option2
+C. Option3
+D. Option4
+
+Answer: A
+
+Explanation: Explanation of TypeScript concept.
+
+------------------------------------------------------------
+
+Topic: Java
+Difficulty: Easy
+
+Question: What is Java concept 6?
+
+Options:
+A. Option1
+B. Option2
+C. Option3
+D. Option4
+
+Answer: A
+
+Explanation: Explanation of Java concept.
+
+------------------------------------------------------------
+
+Topic: TypeScript
+Difficulty: Easy
+
+Question: What is TypeScript concept 6?
+
+Options:
+A. Option1
+B. Option2
+C. Option3
+D. Option4
+
+Answer: A
+
+Explanation: Explanation of TypeScript concept.
+
+------------------------------------------------------------
+
+Topic: Java
+Difficulty: Easy
+
+Question: What is Java concept 7?
+
+Options:
+A. Option1
+B. Option2
+C. Option3
+D. Option4
+
+Answer: A
+
+Explanation: Explanation of Java concept.
+
+------------------------------------------------------------
+
+Topic: TypeScript
+Difficulty: Easy
+
+Question: What is TypeScript concept 7?
+
+Options:
+A. Option1
+B. Option2
+C. Option3
+D. Option4
+
+Answer: A
+
+Explanation: Explanation of TypeScript concept.
+
+------------------------------------------------------------
+
+Topic: Java
+Difficulty: Medium
+
+Question: What is Java concept 8?
+
+Options:
+A. Option1
+B. Option2
+C. Option3
+D. Option4
+
+Answer: A
+
+Explanation: Explanation of Java concept.
+
+------------------------------------------------------------
+
+Topic: TypeScript
+Difficulty: Medium
+
+Question: What is TypeScript concept 8?
+
+Options:
+A. Option1
+B. Option2
+C. Option3
+D. Option4
+
+Answer: A
+
+Explanation: Explanation of TypeScript concept.
+
+------------------------------------------------------------
+
+Topic: Java
+Difficulty: Medium
+
+Question: What is Java concept 9?
+
+Options:
+A. Option1
+B. Option2
+C. Option3
+D. Option4
+
+Answer: A
+
+Explanation: Explanation of Java concept.
+
+------------------------------------------------------------
+
+Topic: TypeScript
+Difficulty: Medium
+
+Question: What is TypeScript concept 9?
+
+Options:
+A. Option1
+B. Option2
+C. Option3
+D. Option4
+
+Answer: A
+
+Explanation: Explanation of TypeScript concept.
+
+------------------------------------------------------------
+
+Topic: Java
+Difficulty: Medium
+
+Question: What is Java concept 10?
+
+Options:
+A. Option1
+B. Option2
+C. Option3
+D. Option4
+
+Answer: A
+
+Explanation: Explanation of Java concept.
+
+------------------------------------------------------------
+
+Topic: TypeScript
+Difficulty: Medium
+
+Question: What is TypeScript concept 10?
+
+Options:
+A. Option1
+B. Option2
+C. Option3
+D. Option4
+
+Answer: A
+
+Explanation: Explanation of TypeScript concept.
+
+------------------------------------------------------------
+
+Topic: Java
+Difficulty: Medium
+
+Question: What is Java concept 11?
+
+Options:
+A. Option1
+B. Option2
+C. Option3
+D. Option4
+
+Answer: A
+
+Explanation: Explanation of Java concept.
+
+------------------------------------------------------------
+
+Topic: TypeScript
+Difficulty: Medium
+
+Question: What is TypeScript concept 11?
+
+Options:
+A. Option1
+B. Option2
+C. Option3
+D. Option4
+
+Answer: A
+
+Explanation: Explanation of TypeScript concept.
+
+------------------------------------------------------------
+
+Topic: Java
+Difficulty: Medium
+
+Question: What is Java concept 12?
+
+Options:
+A. Option1
+B. Option2
+C. Option3
+D. Option4
+
+Answer: A
+
+Explanation: Explanation of Java concept.
+
+------------------------------------------------------------
+
+Topic: TypeScript
+Difficulty: Medium
+
+Question: What is TypeScript concept 12?
+
+Options:
+A. Option1
+B. Option2
+C. Option3
+D. Option4
+
+Answer: A
+
+Explanation: Explanation of TypeScript concept.
+
+------------------------------------------------------------
+
+Topic: Java
+Difficulty: Medium
+
+Question: What is Java concept 13?
+
+Options:
+A. Option1
+B. Option2
+C. Option3
+D. Option4
+
+Answer: A
+
+Explanation: Explanation of Java concept.
+
+------------------------------------------------------------
+
+Topic: TypeScript
+Difficulty: Medium
+
+Question: What is TypeScript concept 13?
+
+Options:
+A. Option1
+B. Option2
+C. Option3
+D. Option4
+
+Answer: A
+
+Explanation: Explanation of TypeScript concept.
+
+------------------------------------------------------------
+
+Topic: Java
+Difficulty: Medium
+
+Question: What is Java concept 14?
+
+Options:
+A. Option1
+B. Option2
+C. Option3
+D. Option4
+
+Answer: A
+
+Explanation: Explanation of Java concept.
+
+------------------------------------------------------------
+
+Topic: TypeScript
+Difficulty: Medium
+
+Question: What is TypeScript concept 14?
+
+Options:
+A. Option1
+B. Option2
+C. Option3
+D. Option4
+
+Answer: A
+
+Explanation: Explanation of TypeScript concept.
+
+------------------------------------------------------------
+
+Topic: Java
+Difficulty: Hard
+
+Question: What is Java concept 15?
+
+Options:
+A. Option1
+B. Option2
+C. Option3
+D. Option4
+
+Answer: A
+
+Explanation: Explanation of Java concept.
+
+------------------------------------------------------------
+
+Topic: TypeScript
+Difficulty: Hard
+
+Question: What is TypeScript concept 15?
+
+Options:
+A. Option1
+B. Option2
+C. Option3
+D. Option4
+
+Answer: A
+
+Explanation: Explanation of TypeScript concept.
+
+------------------------------------------------------------
+
+Topic: Java
+Difficulty: Hard
+
+Question: What is Java concept 16?
+
+Options:
+A. Option1
+B. Option2
+C. Option3
+D. Option4
+
+Answer: A
+
+Explanation: Explanation of Java concept.
+
+------------------------------------------------------------
+
+Topic: TypeScript
+Difficulty: Hard
+
+Question: What is TypeScript concept 16?
+
+Options:
+A. Option1
+B. Option2
+C. Option3
+D. Option4
+
+Answer: A
+
+Explanation: Explanation of TypeScript concept.
+
+------------------------------------------------------------
+
+Topic: Java
+Difficulty: Hard
+
+Question: What is Java concept 17?
+
+Options:
+A. Option1
+B. Option2
+C. Option3
+D. Option4
+
+Answer: A
+
+Explanation: Explanation of Java concept.
+
+------------------------------------------------------------
+
+Topic: TypeScript
+Difficulty: Hard
+
+Question: What is TypeScript concept 17?
+
+Options:
+A. Option1
+B. Option2
+C. Option3
+D. Option4
+
+Answer: A
+
+Explanation: Explanation of TypeScript concept.
+
+------------------------------------------------------------
+
+Topic: Java
+Difficulty: Hard
+
+Question: What is Java concept 18?
+
+Options:
+A. Option1
+B. Option2
+C. Option3
+D. Option4
+
+Answer: A
+
+Explanation: Explanation of Java concept.
+
+------------------------------------------------------------
+
+Topic: TypeScript
+Difficulty: Hard
+
+Question: What is TypeScript concept 18?
+
+Options:
+A. Option1
+B. Option2
+C. Option3
+D. Option4
+
+Answer: A
+
+Explanation: Explanation of TypeScript concept.
+
+------------------------------------------------------------
+
+Topic: Java
+Difficulty: Hard
+
+Question: What is Java concept 19?
+
+Options:
+A. Option1
+B. Option2
+C. Option3
+D. Option4
+
+Answer: A
+
+Explanation: Explanation of Java concept.
+
+------------------------------------------------------------
+
+Topic: TypeScript
+Difficulty: Hard
+
+Question: What is TypeScript concept 19?
+
+Options:
+A. Option1
+B. Option2
+C. Option3
+D. Option4
+
+Answer: A
+
+Explanation: Explanation of TypeScript concept.
+
+------------------------------------------------------------
+
+Topic: Java
+Difficulty: Hard
+
+Question: What is Java concept 20?
+
+Options:
+A. Option1
+B. Option2
+C. Option3
+D. Option4
+
+Answer: A
+
+Explanation: Explanation of Java concept.
+
+------------------------------------------------------------
+
+Topic: TypeScript
+Difficulty: Hard
+
+Question: What is TypeScript concept 20?
+
+Options:
+A. Option1
+B. Option2
+C. Option3
+D. Option4
+
+Answer: A
+
+Explanation: Explanation of TypeScript concept.
+
+------------------------------------------------------------
