@@ -2,6 +2,7 @@
 
 from langchain_mongodb import MongoDBAtlasVectorSearch
 from pymongo import MongoClient
+import certifi
 from langchain_google_genai import GoogleGenerativeAIEmbeddings
 from app.core.config import settings
 
@@ -40,8 +41,12 @@ def get_vector_store(collection_name: str = None, is_query: bool = False):
 
     embeddings = get_query_embeddings() if is_query else get_embeddings()
 
-    # Initialize MongoDB Client
-    client = MongoClient(settings.MONGODB_URI)
+    # Initialize MongoDB Client with SSL/TLS verification
+    client = MongoClient(
+        settings.MONGODB_URI,
+        tls=True,
+        tlsCAFile=certifi.where()
+    )
     db_name = settings.MONGODB_DB_NAME
     collection = client[db_name][collection_name]
     
